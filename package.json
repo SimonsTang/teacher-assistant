@@ -1,0 +1,45 @@
+{
+  "name": "teacher-assistant",
+  "version": "3.0.0",
+  "title": "中小学老师智能体教学助手",
+  "description": "工业级AI教师工作智能辅助系统 — 八大核心模块+四大特色能力+严格约束体系，全面提升教学效率",
+  "author": "QClaw AI Team",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "teacher-assistant",
+    "AI-tutor",
+    "K12",
+    "teaching",
+    "lesson-planning",
+    "homework-grading",
+    "home-school-communication",
+    "industrial-grade",
+    "teaching-research",
+    "personal-growth",
+    "smart-teaching"
+  ],
+  "homepage": "https://github.com/QClaw/teacher-assistant",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QClaw/teacher-assistant.git"
+  },
+  "peerDependencies": {
+    "openclaw": ">=1.0.0"
+  },
+  "dependencies": {
+    "docx": "^8.0.0",
+    "xlsx": "^0.18.0"
+  },
+  "openclaw": {
+    "categories": [
+      "education",
+      "productivity"
+    ],
+    "compatibility": {
+      "windows": true,
+      "macos": true,
+      "linux": true
+    }
+  }
+}
